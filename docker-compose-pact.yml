@@ -1,8 +1,7 @@
 version: '2'
 services:
   postgres:
-    build: docker/images/postgres/
-    image: shanelee007/pact_postgres
+    image: shanelee007/docker-pact-postgres
     environment:
       -  POSTGRES_PASSWORD=ThePostgresPassword
       -  POSTGRES_USER=admin
